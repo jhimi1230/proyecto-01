@@ -1,5 +1,5 @@
 const bookActions = require("./book.actions");
-const { throwCustomError } = require("../../utils/functions");
+const { throwCustomError } = require("../../utils/function");
 
 async function createBook(data) {
   const CreatedBook = await bookActions.createBook(data);

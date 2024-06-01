@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const bookController = require("./book.controller");
 
-const { respondWithError } = require("../../utils/functions");
+const { respondWithError } = require("../../utils/function");
 
 const { verifyToken } = require("../auth/auth.actions");
 

@@ -27,4 +27,4 @@ mongoose.connect(
     "mongodb+srv://jhimi321123:nsS0WaQxcX8LnJiq@cluster0.t6xactb.mongodb.net"
 );
 
-app.listen(3000);
+module.exports = app;

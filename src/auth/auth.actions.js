@@ -1,7 +1,7 @@
 const User = require("../user/user.model");
 const jwt = require("jsonwebtoken");
 const config = require("../../config");
-const { respondWithError, throwCustomError } = require("../../utils/functions");
+const { respondWithError, throwCustomError } = require("../../utils/function");
 const bcrypt = require("bcryptjs");
 
 async function registerUser(data) {
